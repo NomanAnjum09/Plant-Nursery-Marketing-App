@@ -1,68 +1,50 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# A React,Firebase Javascript Project
+### This Project is a small PLant Nursery Marketing and Advertisment Website
 
-## Available Scripts
+### Tools
+* React.js
+* Firebase
+* Kommunicate
+* DialougeFlow
+* Redux
 
-In the project directory, you can run:
+This project is aimed for Marketing and Advertisment of A Plant Nursery website.
+Project basically targets some latest features and tools which are being used
+these days for a good website.
 
-### `npm start`
+Project uses firebase as backend to store Pictures added by admin in realtime database.
+It also uses an email password based authorization for admin access. Admin can perform CRUD
+operations for Images.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Redux is not necassary for the project, however i used it to keep logged in admin status in local storage.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+I have integrated a chatbot for the website to meet basic queries of visiters.
+It uses DialougeFlow as backend and Kommunicate for frontend services.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How To Run Project.
+ 
+* Install React
+* Make a firebase project
+* Add firebase credentials from firebase to firebase.js file
 
-### `npm run build`
+https://medium.com/firebase-developers/patterns-for-security-with-firebase-per-user-permissions-for-cloud-firestore-be67ee8edc4a
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+https://stackoverflow.com/questions/37403747/firebase-permission-denied
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+https://stackoverflow.com/questions/43452822/how-to-get-id-of-object-from-firebase-database-in-reactjs
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Make a ChatBot backend on dialogflow
 
-### `npm run eject`
+https://chatbotslife.com/dialogflow-restaurant-bot-tutorial-1-45ce1d3c0ab5
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* Integerate DialougeFlow backend with Kommunicate
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+https://www.kommunicate.io/blog/integrate-dialogflow-bot-react-js/
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* Add Kommunicate credentials in /website/chat.js
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* Run npm install to install dependencies
+* Run npm start
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+!! Thats it
