@@ -1,0 +1,24 @@
+.block{
+    color:#08cbfc;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:18px;
+    background:#343636;
+    padding:20px;
+    text-decoration: none;
+    font-weight:bold;
+    transition: background-color 0.6s ease;
+}
+
+.block:hover{
+    color:#566865;
+    background:#08cbfc;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:18px;
+
+}
+
+
+.link{
+    color:"#14FFFF";
+    padding:"10px";
+}
