@@ -1,6 +1,7 @@
 # A React,Firebase Javascript Project
 ### This Project is a small PLant Nursery Marketing and Advertisment Website
-
+### Deployed Site URL
+https://amazingnursery.netlify.app/
 ### Tools
 * React.js
 * Firebase
