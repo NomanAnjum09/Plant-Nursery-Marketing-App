@@ -49,3 +49,11 @@ https://www.kommunicate.io/blog/integrate-dialogflow-bot-react-js/
 * Run npm start
 
 !! Thats it
+
+### Project Snaps
+![Screenshot from 2021-04-17 00-17-10](https://user-images.githubusercontent.com/39652150/115073927-6fde4f00-9f12-11eb-8e20-2b1c8d28b19d.png)
+
+
+![Screenshot from 2021-04-17 00-17-20](https://user-images.githubusercontent.com/39652150/115073936-72d93f80-9f12-11eb-8640-aed2d94f7d8d.png)7
+
+![Screenshot from 2021-04-17 00-17-46](https://user-images.githubusercontent.com/39652150/115073952-779df380-9f12-11eb-98e2-058bf669aaab.png)
